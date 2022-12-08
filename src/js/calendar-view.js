@@ -84,7 +84,6 @@ export function asciiCalendar(calendar, locationCode) {
 export function domCalendar(calendar, location) {
   const month = location.months[calendar.month], 
     year = calendar.year;
-
   let htmlSegment = `<table>
     <caption>${month} ${year}</caption>
     <thead><tr>`;
