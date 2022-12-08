@@ -1,0 +1,3 @@
+mycalender@1.0.0 /home/om3re/code/js/gitblit/example-projects-2023/mycalender
+└── UNMET DEPENDENCY parcel@^2.8.0
+
