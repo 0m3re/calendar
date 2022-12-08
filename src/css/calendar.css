@@ -2,6 +2,25 @@ body{
 	background: white;
 }
 
+#button-previous{
+  background: url(../../public/arrow-prev.png) no-repeat center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+#button-next{
+  background: url(../../public/arrow-next.png) no-repeat center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  float: right;
+}
+
+#mainDiv{
+  display: inline-block;
+}
+
 /* Some basic styles for the calendar */
 table {
     border-collapse: collapse;

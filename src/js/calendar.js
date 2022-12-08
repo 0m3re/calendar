@@ -19,7 +19,7 @@ function showCalendar(){
       "September", "Oktober", "November", "Dezember"],
     firstDayOfWeek: 1
   };
-  let container = document.getElementById("div1");
+  let container = document.getElementById("mainDiv");
 
   let div = document.createElement('div')
   let htmltable = domCalendar(calendar, place);
