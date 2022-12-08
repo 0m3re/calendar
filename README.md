@@ -6,12 +6,12 @@ My project is a calendar that has been built using JavaScript and implemented in
 
 To use this calendar, you will need the following:
 
-1. npm or yarn for installing dependencies and running scripts.
-2. node for running the development server and building the project.
+1. [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) for installing dependencies and running scripts.
+2. [node](https://nodejs.org/en/) for running the development server and building the project.
 
 You can check if you have these installed by running npm -v or yarn -v to check the version of npm/yarn, and node -v to check the version of node.
 
-To install npm, follow the instructions on the npm website. To install yarn, follow the instructions on the yarn website. To install node, follow the instructions on the node website.
+To install npm, follow the instructions on the [npm website](https://docs.npmjs.com/getting-started). To install yarn, follow the instructions on the [yarn website](https://yarnpkg.com/getting-started/install). To install node, follow the instructions on the [node website](https://nodejs.org/en/download/).
 
 
 ## Installation
@@ -33,4 +33,4 @@ To use the calendar, follow these steps:
 
 ## Author
 
-This calendar was created by 0m3re. You can find more of my work on [GitHub](https://github.com/0m3re) or follow me on Twitter.
+This calendar was created by 0m3re. You can find more of my work on [GitHub](https://github.com/0m3re).
