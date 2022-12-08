@@ -4,6 +4,7 @@ function showCalendar(){
   let thisnow = new Date();
   let thisyear = thisnow.getFullYear();
   let thismonth = thisnow.getMonth() + 1; // Add 1 to the month number
+  let thisday = thisnow.getDate();
   let calendar = { 
     month: thismonth,
     year: thisyear, 
@@ -27,6 +28,8 @@ function showCalendar(){
 
   container.appendChild(div)
 
+  changeCells();
+
   let buttonPrevious = document.getElementById('button-previous');
   let buttonNext = document.getElementById('button-next');
 
@@ -47,6 +50,8 @@ function showCalendar(){
 
     container.replaceChild(newDiv, div)
 
+    changeCells();
+
     div = newDiv;
   }
 
@@ -65,6 +70,8 @@ function showCalendar(){
     newDiv.innerHTML = htmltable;
 
     container.replaceChild(newDiv, div)
+    
+    changeCells();
 
     div = newDiv;
   }
@@ -82,6 +89,19 @@ function showCalendar(){
 
     }
   });
-
+  
+  function changeCells() {
+    // gives an array of all non-empty cells
+    let cells = document.querySelectorAll("td");
+    // loop through all cells
+    for (let cell of cells) {
+      if (cell.innerHTML != "") {
+        cell.classList.add("non-empty");
+      }
+      if (calendar.month == thismonth && calendar.year == thisyear && cell.innerHTML == thisday) {
+        cell.id = 'currentday';
+      }
+    }
+  }
 }
 showCalendar();

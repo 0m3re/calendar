@@ -1,5 +1,5 @@
 body{
-	background: white;
+  background: white;
 }
 
 #button-previous{
@@ -24,16 +24,26 @@ body{
 /* Some basic styles for the calendar */
 table {
   border-collapse: collapse;
+  border-radius: 10px;
 }
 
 td, th {
   width: 2em;
   border: 1px solid black;
-  padding: 0.5em;
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
+  padding: 10px;
+  color: #333;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
 }
 
-/* Use a different style for the dates that are not in the current month */
-td.not-current {
-  color: #ccc;
+.non-empty:hover {
+  background-color: #ADD8E6;
+  cursor: pointer;
+}
+
+#currentday {
+  color: #FF0000;
 }
