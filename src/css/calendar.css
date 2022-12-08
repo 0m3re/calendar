@@ -24,7 +24,6 @@ body{
 /* Some basic styles for the calendar */
 table {
   border-collapse: collapse;
-  border-radius: 10px;
 }
 
 td, th {
