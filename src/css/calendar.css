@@ -23,16 +23,17 @@ body{
 
 /* Some basic styles for the calendar */
 table {
-    border-collapse: collapse;
-    }
+  border-collapse: collapse;
+}
 
 td, th {
-    border: 1px solid black;
-    padding: 0.5em;
-    text-align: center;
-    }
+  width: 2em;
+  border: 1px solid black;
+  padding: 0.5em;
+  text-align: center;
+}
 
 /* Use a different style for the dates that are not in the current month */
 td.not-current {
-    color: #ccc;
-    }
+  color: #ccc;
+}
