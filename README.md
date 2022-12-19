@@ -33,6 +33,14 @@ To use the calendar, follow these steps:
 
 1. To navigate between different months, use the left and right arrows at the top of the calendar or the right and left arrow keys.
 
+## Additional Resources
+
+To learn more about how to create a npm project with Parcel for web, check out this video tutorial:
+
+[Create a npm project with Parcel for web](https://youtu.be/R02ehdTzi3I)
+
+In this video, you will learn how to create a new npm project and use Parcel to build and serve your project. You will also learn how to use Parcel to transpile and bundle your code, and how to set up a development server for live reloading. Whether you are a beginner or an experienced developer, this video will provide valuable insights into using Parcel for web development projects.
+
 ## Author
 
 This calendar was created by 0m3re. You can find more of my work on [GitHub](https://github.com/0m3re).
